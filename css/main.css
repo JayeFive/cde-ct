@@ -96,8 +96,9 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.navbar {
+.navbar, .navbar a {
     background-color: #0069cc;
+    color: #e3d454;
 }
 .logo-bar {
     height: 88px;
@@ -111,9 +112,15 @@ textarea {
 .title-content {
     background-color: #0069cc;
     height: 200px;
-    color: #91d100;
+    color: #e3d454;
 }
-
+.main-content {
+    margin-top: 40px;
+    max-width: 48em;
+}
+.tab-content {
+    padding-top: 30px;
+}
 
 
 
