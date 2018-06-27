@@ -134,7 +134,10 @@ textarea {
     width: auto;
     max-width: 100%;
 }
-
+.footer {
+    height: 100px;
+    background-color: #8490a5;
+}
 
 
 
