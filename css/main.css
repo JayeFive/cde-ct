@@ -101,13 +101,15 @@ textarea {
     color: #e3d454;
 }
 .logo-bar {
-    height: 88px;
+    height: 100px;
 }
 .logo-wrapper {
-    width: 200px;
-    height: 36px;
-    margin-top: 15px;
-    border-style: solid;
+    height: 100%;
+}
+.logo-wrapper img {
+    width: auto;
+    max-width: 90%;
+    height: auto;
 }
 .title-content {
     background-color: #0069cc;
@@ -121,15 +123,6 @@ textarea {
 .tab-content {
     padding-top: 30px;
 }
-
-
-
-
-
-
-
-
-
 
 
 
