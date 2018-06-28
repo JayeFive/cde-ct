@@ -96,9 +96,20 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+body {
+    font-family: 'Roboto', serif;;
+}
+h4, .nav-link {
+    text-transform: uppercase;
+}
 .navbar, .navbar a {
     background-color: #0069cc;
     color: #fff;
+}
+.nav-tabs a:link,
+.nav-tabs a:visited {
+    color: #000;
 }
 .logo-bar {
     height: 100px;
@@ -134,10 +145,15 @@ textarea {
     width: auto;
     max-width: 100%;
 }
-.footer {
-    height: 100px;
-    background-color: #8490a5;
+.footer a:link,
+.footer a:visited {
+    color: #fff;
 }
+.footer {
+    background-color: #8490a5;
+    height: 80px;
+}
+
 
 
 
