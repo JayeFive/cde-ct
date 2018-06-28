@@ -26,7 +26,6 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
-  <!-- Add your site or application content here -->
   <header>
     <nav class="navbar navbar-expand-lg">
       <div class="container">
@@ -62,7 +61,7 @@
     </div>
   </div>
   
-  <div class="container-fluid title-content text-center">
+  <div class="container-fluid backdrop-wrapper">
     
   </div>
 
@@ -73,7 +72,7 @@
           <a class="nav-link active" id="about-tab" data-toggle="tab" href="#about" role="tab" aria-controls="" aria-selected="true" href="#">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="" aria-selected="true" href="#">JoAnn Ahern</a>
+          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="" aria-selected="true" href="#">Staff</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" id="location-tab" data-toggle="tab" href="#location" role="tab" aria-controls="" aria-selected="true" href="#">Location</a>
@@ -164,9 +163,27 @@
         <br>
         <!--Location Tab-->
         <div class="tab-pane fade" id="location" role="tabpanel" aria-labelledby="location-tab">
-          <h4>123 Some Street, CT</h4>
+          <h4>500 Purdy Hill Rd, CT 06468</h4>
           <h5>203-261-4277</h5>
           <div id="map"></div>
+          <div class="form-wrapper my-5">
+            <h4>Contact Us</h4>
+            <form>
+              <div class="form-group">
+                <label for="contact-form">Email address</label>
+                <input type="email" class="form-control" placeholder="name@example.com">
+              </div>
+              <div class="form-group">
+                <label for="contact-form">Phone number</label>
+                <input type="number" class="form-control" placeholder="555-555-5555">
+              </div>
+              <div class="form-group">
+                <label for="contact-form">Message</label>
+                <textarea class="form-control" rows="6"></textarea>
+              </div>
+              <button style="submit" class="btn btn-outline-success btn-block">Send</button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
@@ -174,8 +191,9 @@
   
   <div class="footer">
     <div class="container d-flex h-100">
-      <div class="row justify-content-center align-self-center">
+      <div class="row justify-content-center align-self-center mx-auto">
         <a href="tel:2032614277">203-261-4277</a>
+        <span>&copy John E. Olson 2018</span>
       </div>
     </div>
   </div> 
