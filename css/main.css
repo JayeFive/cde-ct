@@ -108,7 +108,8 @@ h4, .nav-link {
     text-transform: uppercase;
 }
 .navbar, .navbar a {
-    background-color: #0069cc;
+    /*background-color: #0069cc;*/ 
+    background-color: #496AC8;
     color: #fff;
 }
 .nav-tabs a:link,
@@ -160,6 +161,7 @@ h4, .nav-link {
     color: #fff;
 }
 .footer {
+    color: #fff;
     background-color: #8490a5;
     height: 80px;
 }

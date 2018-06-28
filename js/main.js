@@ -3,7 +3,7 @@ $(function () {
 
     function initMap() {
 
-        var location = new google.maps.LatLng(50.0875726, 14.4189987);
+        var location = new google.maps.LatLng(41.3057098, -73.2508827);
 
         var mapCanvas = document.getElementById('map');
         var mapOptions = {
@@ -13,6 +13,7 @@ $(function () {
             mapTypeId: google.maps.MapTypeId.ROADMAP
         }
         var map = new google.maps.Map(mapCanvas, mapOptions);
+        var marker = new google.maps.Marker({position: location, map: map});
 
     }
 
