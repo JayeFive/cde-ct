@@ -30,7 +30,7 @@
     <nav class="navbar navbar-expand-lg">
       <div class="container">
         <a href="tel:2032614277">203-261-4277</a>
-        <i class="ml-auto fab fa-facebook fa-2x"></i>
+        <a href="https://www.facebook.com/Center-for-Diabetes-Excellence-239474396668073/"><i class="ml-auto fab fa-facebook fa-2x"></i></a>
       </div>
     </nav>
   </header>
@@ -92,7 +92,7 @@
         <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
           <div class="bio-sketch text-center">
             <div class="photo-wrapper mx-auto">
-              <img src="img/jo_ann_portrait_280.png" alt="Photo of JoAnn Ahern">
+              <img src="img/jo_ann_portrait_280.png" alt="Photo of JoAnn Ahern, sole proprietor of the Center for Diabetes Excellence">
             </div><br>
             <h5>Jo Ann Ahern, APRN, MSN, CDE, BC-ADM</h5>
             <p>Sole Propreitor of "Center for Diabetes Excellence</p>
@@ -149,6 +149,24 @@
                 </tr>
               </tbody>
             </table>
+            <h4>Research and Professional Experience</h4>
+            <p>2018-Sole Proprietor of “Center for Diabetes Excellence”- Manage diabetes care for all those with type 1 diabetes including Gestational diabetes, with a specialty 
+               in intensive diabetes management with insulin pumps, sensors and all new devices.</p>
+            <p>2008-2018- Manager of the Danbury Pediatric Diabetes Program- Manage diabetes care for all patients with diabetes and oversee inpatient stay for new patients and 
+               run a support group for parents. Participate in the TrialNet study.</p>
+            <p>2006-2008-Animas Corporation-Clinical Manager</p>
+            <p>1993-2006-Yale New Haven Hospital, New Haven, CT<br>Diabetes Clinical Nurse Specialist for Pediatric and Adult Type I patients. Responsible for providing care to 
+               all pediatric patients with diabetes in the outpatient area and overseeing care for inpatients. Responsible for outpatient diabetes management in adults with Type 
+               I diabetes, particularly providing the tools to carry out intensive diabetes regimens with a specialty of using pumps</p>
+            <p>2002-present-Clinical Assistant Professor-Yale School of Nursing</p>
+            <p>1995-1997-Clinical Assistant Professor in the Department of Nursing at Southern Connecticut State University</p>
+            <p>1983-1993-Trial Coordinator/Co-Investigator of The Diabetes Control and Complications Trial at Yale. One of 29 Clinical Centers involved in a 10 year multicenter 
+               clinical trial. Responsible for the care of 54 patients involved in our center as well as the treatment team consisting of a research nurse, dietitian, social worker 
+               and research assistant. Also on the over site committee helping centers achieve study goals.</p>
+            <p>1981-1983-Coordinator of Kroc Collaborative Study at Yale. Responsible for inpatient as well as outpatient care of 12 patients involved in this multicenter clinical 
+               trial on the effects of pump vs conventional treatment of IDDM. (Grandfather of the DCCT)</p>
+            <p>1979-1981-Staff nurse on the Children's Clinical Research Center at Yale Responsibilities included care of the postoperative child and pre and post operative teaching
+               of the child and family, carrying out research protocols for many different specialty areas and diabetes teaching to newly diagnosed patients and their families.</p>
           </div>
         </div>
         <br>
@@ -156,23 +174,29 @@
         <div class="tab-pane fade" id="location" role="tabpanel" aria-labelledby="location-tab">
           <h4>500 Purdy Hill Rd, CT 06468</h4>
           <h5>203-261-4277</h5>
-          <div id="map"></div>
+          <div class="map-wrapper">
+            <div id="map"></div>
+          </div>
           <div class="form-wrapper my-5">
             <h4>Contact Us</h4>
-            <form>
+            <form method="post" action="contact.php">
+              <div class="form-group">
+                <label for="contact-form">Name</label>
+                <input type="text" name="name" class="form-control" placeholder="John Doe">
+              </div>
               <div class="form-group">
                 <label for="contact-form">Email address</label>
-                <input type="email" class="form-control" placeholder="name@example.com">
+                <input type="email" name="email" class="form-control" placeholder="name@example.com">
               </div>
               <div class="form-group">
                 <label for="contact-form">Phone number</label>
-                <input type="number" class="form-control" placeholder="555-555-5555">
+                <input type="number" name="phone" class="form-control" placeholder="555-555-5555">
               </div>
               <div class="form-group">
                 <label for="contact-form">Message</label>
-                <textarea class="form-control" rows="6"></textarea>
+                <textarea name="message" class="form-control" rows="6"></textarea>
               </div>
-              <button style="submit" class="btn btn-outline-success btn-block">Send</button>
+              <button type="submit" style="submit" class="btn btn-outline-success btn-block">Send</button>
             </form>
           </div>
         </div>
@@ -207,7 +231,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script> if(typeof($.fn.modal) === 'undefined') {document.write('<script src="js/vendor/bootstrap.bundle.js"><\/script>')}</script>
 
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA64aYtGnmdGv-uwa6jCYHS_WA57cdGrkg"></script>
+  <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA64aYtGnmdGv-uwa6jCYHS_WA57cdGrkg"></script>
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;

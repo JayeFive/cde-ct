@@ -152,6 +152,21 @@ h4, .nav-link {
     width: auto;
     max-width: 100%;
 }
+.map-wrapper {
+    position: relative;
+}
+/*.directions-button {*/
+/*    position: absolute;*/
+/*    top: 10px;*/
+/*    left: 120px;*/
+/*    height: 28px;*/
+/*    width: 92px;*/
+/*    font-family: Roboto, Arial, sans-serif;*/
+/*    font-size: 11px;*/
+/*    background-color: rgb(255, 255, 255);*/
+/*    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;*/
+/*    z-index: 9;*/
+/*}*/
 .form-wrapper {
     max-width: 20em;
     /*padding-top: 30px;*/
